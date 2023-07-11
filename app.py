@@ -4,8 +4,7 @@ import streamlit as st
 from message_log import message_log
 
 api_key = "sk-"
-openai.api_key = api_key
-
+openai.api_key = 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
 def generate_response(message_log):
     response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",  # The name of the OpenAI chatbot model to use
